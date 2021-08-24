@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Almarai', sans-serif;
+    font-style: normal;
+    color: #212121;
+    background: #f7f7f7;
+}
+
+p {
+    color: #212121;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+a {
+    color: #212121;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #212121;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1180px;
+    }
+}
+
+.whole-header-area {
+    background: #FFF7F3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 0;
+}
+
+.whole-header-area p {
+    margin-bottom: 0px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.whole-header-area p:after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: -5px;
+    background: url(../images/alert.svg);
+}
+
+.main-menu {
+    background: #5C524D;
+}
+
+.main-menu .navbar {
+    min-height: auto;
+    margin-bottom: 0;
+    border: 0px;
+}
+
+.main-menu .navbar .col-sm-6 {
+    padding: 0;
+}
+
+.logo-area {
+    padding-top: 23px;
+    padding-bottom: 18px;
+}
+
+.logo-area img {
+    float: left;
+    margin-right: 15px;
+}
+
+.logo-area h2.logo-text {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: #fc732f;
+}
+
+.logo-area h2.logo-text span {
+    color: #fff;
+}
+
+.main-menu .navbar-nav>li {
+    padding: 40px 20px;
+}
+
+.main-menu .navbar-nav>li>a {
+    padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.main-menu .navbar-nav>li>a:hover {
+    background: none;
+    opacity: 0.8;
+}
+
+.main-menu .navbar-nav>li.active>a {
+    color: #fff;
+}
+
+.main-menu .navbar-nav>li.active>a:after {
+    content: "";
+    height: 10px;
+    background: #86EAAE;
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+}
